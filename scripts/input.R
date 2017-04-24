@@ -15,7 +15,7 @@ DF <- DF[,.(PRONTUÁRIO,
       `DURAÇÃO CIR`,
       `FRATURA / SEQUELA`,
       PESO,
-      ALTURA,
+      ALTURA = ALTURA/100,
       IMC,
       DISFONIA,
       DISFAGIA
