@@ -27,3 +27,27 @@ Além da análise de melhora ou não na escala FOIS pré e pós-operatória, for
 A análise vocal foi subjetiva, considerando a queixa do paciente e a percepção do avaliador relatadas em prontuário.
 
 Trata-se de uma amostra de conveniência, e o cálculo amostral tem como base o número de pacientes que realizaram a cirurgia de Artrodese Cervical Anterior no período descrito acima.
+
+## Análise Estatística
+
+As variáveis contínuas foram categorizadas como 
+
+```{r setup, include = FALSE}
+library(pander)
+knitr::opts_knit$set(root.dir = "..")
+```
+
+```{r input, echo = FALSE}
+source("./scripts/input.R")
+
+```
+
+
+```{r disfonia, echo = FALSE}
+with(DF, barplot(table(NIVEIS, DISFONIA), beside = T, legend.text = T, main = "DISFONIA"))
+```
+
+```{r disfagia, echo = FALSE}
+with(DF, barplot(table(NIVEIS, DISFAGIA), beside = T, legend.text = T, main = "DISFAGIA"))
+```
+
