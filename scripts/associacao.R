@@ -58,6 +58,7 @@ cervic.disfag <- with(DF, table(`CERVICAL ALTA`, DISFAGIA))
 
 format.or <- function(ctable) {
   stopifnot(is.table(ctable))
+  stopifnot(dim(ctable) == c(2,2))
   fisher <- fisher.test(ctable)
   est <- round(fisher$estimate, digits = 1)
   ci <- round(fisher$conf.int, digits = 1)
