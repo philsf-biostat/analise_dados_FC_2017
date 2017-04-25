@@ -55,3 +55,14 @@ niveis.disfag <- with(DF, table(NIVEIS, DISFAGIA))
 placa.disfag <- with(DF, table(PLACA, DISFAGIA))
 cervic.disfag <- with(DF, table(`CERVICAL ALTA`, DISFAGIA))
 # .disfag <- with(DF, table(, DISFAGIA))
+
+format.or <- function(ctable) {
+  stopifnot(is.table(ctable))
+  fisher <- fisher.test(ctable)
+  est <- round(fisher$estimate, digits = 1)
+  ci <- round(fisher$conf.int, digits = 1)
+  output <- paste0(format(est), " (", 
+                  format(ci[1]), ", ", 
+                  format(ci[2]), ")")
+  output
+}
