@@ -39,6 +39,29 @@ As variáveis contínuas foram categorizadas como
 
 ## Disfonia
 
+
+--------------------------------------------------------------------
+         &nbsp;                 0              1          p    test 
+------------------------- -------------- -------------- ----- ------
+          **n**                 36             11                   
+
+  **IDADE (mean (sd))**    55.28 (8.61)   59.36 (7.54)  0.164       
+
+   **IMC (mean (sd))**     28.53 (4.58)   26.68 (4.11)  0.262       
+
+ **DURACAO (mean (sd))**  172.78 (71.77) 229.55 (48.76) 0.018       
+
+     **NIVEIS (%)**                                     0.010 exact 
+
+          **1**             12 (33.3)       1 ( 9.1)                
+
+          **2**             19 (52.8)       4 (36.4)                
+
+          **3**              3 ( 8.3)       6 (54.5)                
+
+          **4**              2 ( 5.6)       0 ( 0.0)                
+--------------------------------------------------------------------
+
 Parece haver uma associação estatísticamente significativa entre a quantidade de níveis na cirirgia e a prevalência de disfonia (p-valor = 0.0095).
 Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirirgias longas (OR: 13.3; IC 95%: [1.6, 633.5]).
 
@@ -52,6 +75,29 @@ ou
 se o procedimento foi executado na região alta da cervical (OR: 2.5; IC 95%: [0.4, 27.2]).
 
 ## Disfagia
+
+
+--------------------------------------------------------------------
+         &nbsp;                 0              1          p    test 
+------------------------- -------------- -------------- ----- ------
+          **n**                 11             36                   
+
+  **IDADE (mean (sd))**    53.27 (9.74)   57.14 (7.98)  0.188       
+
+   **IMC (mean (sd))**     29.05 (6.18)   27.79 (3.91)  0.446       
+
+ **DURACAO (mean (sd))**  174.55 (65.44) 189.58 (72.99) 0.544       
+
+     **NIVEIS (%)**                                     0.270 exact 
+
+          **1**              5 (45.5)       8 (22.2)                
+
+          **2**              4 (36.4)      19 (52.8)                
+
+          **3**              1 ( 9.1)       8 (22.2)                
+
+          **4**              1 ( 9.1)       1 ( 2.8)                
+--------------------------------------------------------------------
 
 Não observamos neste estudo evidências de associação entre disfagia e
 gênero (OR: 0.2; IC 95%: [0, 1.3]),

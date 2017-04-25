@@ -49,9 +49,14 @@ source("./scripts/input.R", encoding = 'UTF-8')
 
 ```{r associacao, echo = FALSE}
 source("scripts/associacao.R", encoding = 'UTF-8')
+source("scripts/tabela1.R", encoding = 'UTF-8')
 ```
 
 ## Disfonia
+
+```{r disfonia, echo = F}
+pander(tabela.disfonia)
+```
 
 Parece haver uma associação estatísticamente significativa entre a quantidade de níveis na cirirgia e a prevalência de disfonia (p-valor = `r format.pval(niveis.disfon.fisher$p.value, digits = 2, eps = 0.001)`).
 Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirirgias longas (`r format.or(cir.disfon)`).
@@ -66,6 +71,10 @@ ou
 se o procedimento foi executado na região alta da cervical (`r format.or(cervic.disfon)`).
 
 ## Disfagia
+
+```{r disfagia, echo = F}
+pander(tabela.disfagia)
+```
 
 Não observamos neste estudo evidências de associação entre disfagia e
 gênero (`r format.or(gen.disfag) `),
