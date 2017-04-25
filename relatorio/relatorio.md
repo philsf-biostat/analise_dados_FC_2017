@@ -1,10 +1,4 @@
----
-title: "Análise do projeto de artigo"
-output:
-  html_document:
-    keep_md: yes
-  html_notebook: default
----
+# Análise do projeto de artigo
 
 # Materiais e Métodos
 
@@ -35,45 +29,37 @@ Trata-se de uma amostra de conveniência, e o cálculo amostral tem como base o 
 
 As variáveis contínuas foram categorizadas como 
 
-```{r setup, include = FALSE}
-library(pander)
-knitr::opts_knit$set(root.dir = "..")
-```
 
-```{r input, echo = FALSE}
-source("./scripts/input.R", encoding = 'UTF-8')
 
-```
+
 
 # Resultados
 
-```{r associacao, echo = FALSE}
-source("scripts/associacao.R", encoding = 'UTF-8')
-```
+
 
 ## Disfonia
 
-Parece haver uma associação estatísticamente significativa entre a quantidade de níveis na cirirgia e a prevalência de disfonia (p-valor = `r format.pval(niveis.disfon.fisher$p.value, digits = 2, eps = 0.001)`).
-Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirirgias longas (`r format.or(cir.disfon)`).
+Parece haver uma associação estatísticamente significativa entre a quantidade de níveis na cirirgia e a prevalência de disfonia (p-valor = 0.0095).
+Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirirgias longas (OR: 13.3; IC 95%: [1.6, 633.5]).
 
 Não observamos neste estudo evidências de associação entre disfonia e
-gênero (`r format.or(gen.disfon) `),
-obesidade (`r format.or(ob.disfon)`),
-presença de fraturas ou sequelas (`r format.or(frat.disfon)`),
-presença de mielopatia (`r format.or(mielo.disfon)`),
-o uso de placas (`r format.or(placa.disfon)`)
+gênero (OR: 0.3; IC 95%: [0.1, 1.6]),
+obesidade (OR: 0.6; IC 95%: [0, 3.6]),
+presença de fraturas ou sequelas (OR: 0; IC 95%: [0, 8.2]),
+presença de mielopatia (OR: 1.3; IC 95%: [0.3, 9.2]),
+o uso de placas (OR: Inf; IC 95%: [0, Inf])
 ou
-se o procedimento foi executado na região alta da cervical (`r format.or(cervic.disfon)`).
+se o procedimento foi executado na região alta da cervical (OR: 2.5; IC 95%: [0.4, 27.2]).
 
 ## Disfagia
 
 Não observamos neste estudo evidências de associação entre disfagia e
-gênero (`r format.or(gen.disfag) `),
-obesidade (`r format.or(ob.disfag)`),
-presença de fraturas ou sequelas (`r format.or(frat.disfag)`),
-presença de mielopatia (`r format.or(mielo.disfag)`),
-o uso de placas (`r format.or(placa.disfag)`)
+gênero (OR: 0.2; IC 95%: [0, 1.3]),
+obesidade (OR: 1.8; IC 95%: [0.3, 20.4]),
+presença de fraturas ou sequelas (OR: 0.6; IC 95%: [0, 38.1]),
+presença de mielopatia (OR: 2.1; IC 95%: [0.4, 10.7]),
+o uso de placas (OR: 0; IC 95%: [0, 127.4])
 ou
-se o procedimento foi executado na região alta da cervical (`r format.or(cervic.disfag)`),
-pacientes submetidos a cirirgias longas (`r format.or(cir.disfag)`) ou
-quantidade de níveis na cirirgia (p-valor = `r format.pval(niveis.disfag.fisher$p.value, digits = 2, eps = 0.001)`).
+se o procedimento foi executado na região alta da cervical (OR: 1.3; IC 95%: [0.2, 6.4]),
+pacientes submetidos a cirirgias longas (OR: 0.9; IC 95%: [0.2, 4.4]) ou
+quantidade de níveis na cirirgia (p-valor = 0.27).
