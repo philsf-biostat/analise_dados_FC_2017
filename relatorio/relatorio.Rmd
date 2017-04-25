@@ -38,7 +38,7 @@ knitr::opts_knit$set(root.dir = "..")
 ```
 
 ```{r input, echo = FALSE}
-source("./scripts/input.R")
+source("./scripts/input.R", encoding = 'UTF-8')
 
 ```
 
