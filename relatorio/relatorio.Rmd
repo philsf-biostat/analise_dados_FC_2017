@@ -63,3 +63,14 @@ ou
 se o procedimento foi executado na região alta da cervical (`r format.or(cervic.disfon)`).
 
 ## Disfagia
+
+Não observamos neste estudo evidências de associação entre disfagia e
+gênero (`r format.or(gen.disfag) `),
+obesidade (`r format.or(ob.disfag)`),
+presença de fraturas ou sequelas (`r format.or(frat.disfag)`),
+presença de mielopatia (`r format.or(mielo.disfag)`),
+o uso de placas (`r format.or(placa.disfag)`)
+ou
+se o procedimento foi executado na região alta da cervical (`r format.or(cervic.disfag)`),
+pacientes submetidos a cirirgias longas (`r format.or(cir.disfag)`) ou
+quantidade de níveis na cirirgia (p-valor = `r format.pval(niveis.disfag.fisher$p.value, digits = 2, eps = 0.001)`).
