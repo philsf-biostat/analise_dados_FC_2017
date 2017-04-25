@@ -44,10 +44,10 @@ source("./scripts/input.R")
 
 
 ```{r disfonia, echo = FALSE}
-with(DF, barplot(table(NIVEIS, DISFONIA), beside = T, legend.text = T, main = "DISFONIA"))
+# with(DF, barplot(table(NIVEIS, DISFONIA), beside = T, legend.text = T, main = "DISFONIA"))
 ```
 
 ```{r disfagia, echo = FALSE}
-with(DF, barplot(table(NIVEIS, DISFAGIA), beside = T, legend.text = T, main = "DISFAGIA"))
+# with(DF, barplot(table(NIVEIS, DISFAGIA), beside = T, legend.text = T, main = "DISFAGIA"))
 ```
 
