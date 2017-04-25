@@ -51,3 +51,13 @@ source("./scripts/input.R")
 # with(DF, barplot(table(NIVEIS, DISFAGIA), beside = T, legend.text = T, main = "DISFAGIA"))
 ```
 
+## Resultados
+
+```{r associacao, echo = FALSE}
+source("scripts/associacao.R", encoding = 'UTF-8')
+```
+
+Na amostra de pacientes estudados, não foi possível observar efeito estatisiticamente significativo
+
+Parece haver uma associação estatísticamente significativa entre a quantidade de níveis na cirirgia e a prevalência de disfonia (p-valor = `r format.pval(niveis.disfon.fisher$p.value, digits = 2, eps = 0.001)`).
+Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirirgias longas (`r format.or(cir.disfon)`).
