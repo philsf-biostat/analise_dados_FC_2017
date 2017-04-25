@@ -62,8 +62,8 @@ format.or <- function(ctable) {
   fisher <- fisher.test(ctable)
   est <- round(fisher$estimate, digits = 1)
   ci <- round(fisher$conf.int, digits = 1)
-  output <- paste0(format(est), " (IC 95%: ", 
+  output <- paste0("OR: ", format(est), "; IC 95%: [",
                   format(ci[1]), ", ", 
-                  format(ci[2]), ")")
+                  format(ci[2]), "]")
   output
 }
