@@ -14,13 +14,13 @@ cervic.disfon <- with(DF, table(`CERVICAL ALTA`, DISFONIA))
 # Fisher test
 ob.disfon.fisher <- fisher.test(ob.disfon)
 cir.disfon.fisher <- fisher.test(cir.disfon)
-corpec.disfon.fisher <- fisher.test(corpec.disfon)
 mielo.disfon.fisher <- fisher.test(mielo.disfon)
 frat.disfon.fisher <- fisher.test(frat.disfon)
 gen.disfon.fisher <- fisher.test(gen.disfon)
-niveis.disfon.fisher <- fisher.test(niveis.disfon)
 placa.disfon.fisher <- fisher.test(placa.disfon)
 cervic.disfon.fisher <- fisher.test(cervic.disfon)
+corpec.disfon.fisher <- fisher.test(corpec.disfon)
+niveis.disfon.fisher <- fisher.test(niveis.disfon)
 # ob.disfon.fisher <- fisher.test(ob.disfon)
 
 # OR
@@ -55,6 +55,10 @@ niveis.disfag <- with(DF, table(NIVEIS, DISFAGIA))
 placa.disfag <- with(DF, table(PLACA, DISFAGIA))
 cervic.disfag <- with(DF, table(`CERVICAL ALTA`, DISFAGIA))
 # .disfag <- with(DF, table(, DISFAGIA))
+
+# Fisher
+corpec.disfag.fisher <- fisher.test(corpec.disfag)
+niveis.disfag.fisher <- fisher.test(niveis.disfag)
 
 format.or <- function(ctable) {
   stopifnot(is.table(ctable))
