@@ -37,7 +37,12 @@ As variáveis contínuas foram categorizadas como
 
 
 
+Os pacientes observados possuem idades entre 41 e 77 anos, IMC entre 20.8 e 44.8 kg/m2, e o tempo da cirurgia variando entre 1 hora e 15 minutos e 5 horas e 30 minutos.
+Estas variáveis estão descritas nas tabelas xx e xx, estratificados de acordo com os desfechos Disfonia e Disfagia, respectivamente.
+
 ## Disfonia
+
+Na tabela xx pode-se observar que não há diferença significativa entre as idades, o IMC ou a duração da cirurgia (em minutos).
 
 
 --------------------------------------------------------------------
