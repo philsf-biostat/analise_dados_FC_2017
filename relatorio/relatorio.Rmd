@@ -42,15 +42,6 @@ source("./scripts/input.R", encoding = 'UTF-8')
 
 ```
 
-
-```{r disfonia, echo = FALSE}
-# with(DF, barplot(table(NIVEIS, DISFONIA), beside = T, legend.text = T, main = "DISFONIA"))
-```
-
-```{r disfagia, echo = FALSE}
-# with(DF, barplot(table(NIVEIS, DISFAGIA), beside = T, legend.text = T, main = "DISFAGIA"))
-```
-
 # Resultados
 
 ```{r associacao, echo = FALSE}
