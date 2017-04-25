@@ -40,29 +40,21 @@ As variáveis contínuas foram categorizadas como
 ## Disfonia
 
 
---------------------------------------------------------------------
-         &nbsp;                 0              1          p    test 
-------------------------- -------------- -------------- ----- ------
-          **n**                 36             11                   
+-----------------------------------------------------------------------
+           &nbsp;                  0              1          p    test 
+---------------------------- -------------- -------------- ----- ------
+           **n**                   36             11                   
 
-  **IDADE (mean (sd))**    55.28 (8.61)   59.36 (7.54)  0.164       
+   **IDADE (mean (sd))**      55.28 (8.61)   59.36 (7.54)  0.164       
 
-   **IMC (mean (sd))**     28.53 (4.58)   26.68 (4.11)  0.262       
+    **IMC (mean (sd))**       28.53 (4.58)   26.68 (4.11)  0.262       
 
- **DURACAO (mean (sd))**  172.78 (71.77) 229.55 (48.76) 0.018       
+  **DURACAO (mean (sd))**    172.78 (71.77) 229.55 (48.76) 0.018       
 
-     **NIVEIS (%)**                                     0.010 exact 
+ **NIVEIS = 3 ou mais (%)**     5 (13.9)       6 (54.5)    0.011 exact 
+-----------------------------------------------------------------------
 
-          **1**             12 (33.3)       1 ( 9.1)                
-
-          **2**             19 (52.8)       4 (36.4)                
-
-          **3**              3 ( 8.3)       6 (54.5)                
-
-          **4**              2 ( 5.6)       0 ( 0.0)                
---------------------------------------------------------------------
-
-Parece haver uma associação estatísticamente significativa entre a quantidade de níveis na cirirgia e a prevalência de disfonia (p-valor = 0.0095).
+Parece haver uma associação estatísticamente significativa entre a quantidade de níveis na cirirgia e a prevalência de disfonia (p-valor = OR: 7; IC 95%: [1.3, 43.9]).
 Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirirgias longas (OR: 13.3; IC 95%: [1.6, 633.5]).
 
 Não observamos neste estudo evidências de associação entre disfonia e
@@ -70,42 +62,36 @@ gênero (OR: 0.3; IC 95%: [0.1, 1.6]),
 obesidade (OR: 0.6; IC 95%: [0, 3.6]),
 presença de fraturas ou sequelas (OR: 0; IC 95%: [0, 8.2]),
 presença de mielopatia (OR: 1.3; IC 95%: [0.3, 9.2]),
-o uso de placas (OR: Inf; IC 95%: [0, Inf])
+o uso de placas (OR: Inf; IC 95%: [0, Inf]),
+no número de corpectomias (OR: 3.4; IC 95%: [0, 281.7])
 ou
 se o procedimento foi executado na região alta da cervical (OR: 2.5; IC 95%: [0.4, 27.2]).
 
 ## Disfagia
 
 
---------------------------------------------------------------------
-         &nbsp;                 0              1          p    test 
-------------------------- -------------- -------------- ----- ------
-          **n**                 11             36                   
+-----------------------------------------------------------------------
+           &nbsp;                  0              1          p    test 
+---------------------------- -------------- -------------- ----- ------
+           **n**                   11             36                   
 
-  **IDADE (mean (sd))**    53.27 (9.74)   57.14 (7.98)  0.188       
+   **IDADE (mean (sd))**      53.27 (9.74)   57.14 (7.98)  0.188       
 
-   **IMC (mean (sd))**     29.05 (6.18)   27.79 (3.91)  0.446       
+    **IMC (mean (sd))**       29.05 (6.18)   27.79 (3.91)  0.446       
 
- **DURACAO (mean (sd))**  174.55 (65.44) 189.58 (72.99) 0.544       
+  **DURACAO (mean (sd))**    174.55 (65.44) 189.58 (72.99) 0.544       
 
-     **NIVEIS (%)**                                     0.270 exact 
-
-          **1**              5 (45.5)       8 (22.2)                
-
-          **2**              4 (36.4)      19 (52.8)                
-
-          **3**              1 ( 9.1)       8 (22.2)                
-
-          **4**              1 ( 9.1)       1 ( 2.8)                
---------------------------------------------------------------------
+ **NIVEIS = 3 ou mais (%)**     2 (18.2)       9 (25.0)    1.000 exact 
+-----------------------------------------------------------------------
 
 Não observamos neste estudo evidências de associação entre disfagia e
 gênero (OR: 0.2; IC 95%: [0, 1.3]),
 obesidade (OR: 1.8; IC 95%: [0.3, 20.4]),
 presença de fraturas ou sequelas (OR: 0.6; IC 95%: [0, 38.1]),
 presença de mielopatia (OR: 2.1; IC 95%: [0.4, 10.7]),
-o uso de placas (OR: 0; IC 95%: [0, 127.4])
+o uso de placas (OR: 0; IC 95%: [0, 127.4]),
+no número de corpectomias (OR: Inf; IC 95%: [0.1, Inf])
 ou
 se o procedimento foi executado na região alta da cervical (OR: 1.3; IC 95%: [0.2, 6.4]),
 pacientes submetidos a cirirgias longas (OR: 0.9; IC 95%: [0.2, 4.4]) ou
-quantidade de níveis na cirirgia (p-valor = 0.27).
+quantidade de níveis na cirirgia (p-valor = OR: 1.5; IC 95%: [0.2, 16.7]).

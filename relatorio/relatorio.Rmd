@@ -58,7 +58,7 @@ source("scripts/tabela1.R", encoding = 'UTF-8')
 pander(tabela.disfonia)
 ```
 
-Parece haver uma associação estatísticamente significativa entre a quantidade de níveis na cirirgia e a prevalência de disfonia (p-valor = `r format.pval(niveis.disfon.fisher$p.value, digits = 2, eps = 0.001)`).
+Parece haver uma associação estatísticamente significativa entre a quantidade de níveis na cirirgia e a prevalência de disfonia (p-valor = `r format.or(niveis.disfon)`).
 Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirirgias longas (`r format.or(cir.disfon)`).
 
 Não observamos neste estudo evidências de associação entre disfonia e
@@ -66,7 +66,8 @@ gênero (`r format.or(gen.disfon) `),
 obesidade (`r format.or(ob.disfon)`),
 presença de fraturas ou sequelas (`r format.or(frat.disfon)`),
 presença de mielopatia (`r format.or(mielo.disfon)`),
-o uso de placas (`r format.or(placa.disfon)`)
+o uso de placas (`r format.or(placa.disfon)`),
+no número de corpectomias (`r format.or(corpec.disfon)`)
 ou
 se o procedimento foi executado na região alta da cervical (`r format.or(cervic.disfon)`).
 
@@ -81,8 +82,9 @@ gênero (`r format.or(gen.disfag) `),
 obesidade (`r format.or(ob.disfag)`),
 presença de fraturas ou sequelas (`r format.or(frat.disfag)`),
 presença de mielopatia (`r format.or(mielo.disfag)`),
-o uso de placas (`r format.or(placa.disfag)`)
+o uso de placas (`r format.or(placa.disfag)`),
+no número de corpectomias (`r format.or(corpec.disfag)`)
 ou
 se o procedimento foi executado na região alta da cervical (`r format.or(cervic.disfag)`),
 pacientes submetidos a cirirgias longas (`r format.or(cir.disfag)`) ou
-quantidade de níveis na cirirgia (p-valor = `r format.pval(niveis.disfag.fisher$p.value, digits = 2, eps = 0.001)`).
+quantidade de níveis na cirirgia (p-valor = `r format.or(niveis.disfag)`).
