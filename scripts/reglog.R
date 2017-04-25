@@ -17,5 +17,3 @@ summary(with(DF, glm(DISFONIA ~ DUR.cat, family = binomial))) # horas
 
 summary(with(DF, glm(DISFAGIA ~ DURACAO, family = binomial))) # minutos
 summary(with(DF, glm(DISFAGIA ~ DUR.cat, family = binomial))) # horas
-
-LONGA <- cut(hour(DF$`DURAÇÃO CIR`), breaks = c(0,2, Inf), labels = c(0, 1))

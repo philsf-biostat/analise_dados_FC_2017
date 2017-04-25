@@ -36,3 +36,4 @@ DF$OBESO <- cut(DF$IMC, breaks = c(0,30, Inf), include.lowest = T, labels = c(0,
 DF$DURACAO <- DF[, .( hour(`DURAÇÃO CIR`)*60 + minute(`DURAÇÃO CIR`) ) ]
 
 DF$DUR.cat <- DF[, .( factor(hour(`DURAÇÃO CIR`)))]
+LONGA <- cut(hour(DF$`DURAÇÃO CIR`), breaks = c(0,2, Inf), labels = c(0, 1))
