@@ -128,4 +128,5 @@ Este trabalho indica que ACAs com maior grau de complexidade (onde são necessá
 Há evidências também que ACAs com duração maiores ou iguais a 2 horas estão associadas a este desfecho.
 
 Não foi possível observar associação entre nenhuma das variáveis estudadas e a disfagia.
-Observamos no entanto o baixo poder estatístico devido a baixa representatividade de alguns grupos, afetando a confiança das estatísticas obtidas neste estudo.
+Observamos no entanto, considerando as estratifições propostas, o baixo poder estatístico das análises devido a baixa representatividade de alguns grupos.
+Evidencia-se assim a necessidade de confirmação dos resultados com novos estudos, preferencialmente especialmente desenhados para confirmar ou refutar os resultados aqui obtidos.
