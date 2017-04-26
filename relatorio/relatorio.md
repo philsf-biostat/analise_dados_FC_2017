@@ -124,3 +124,9 @@ Parece haver uma relação entre o tempo de cirurgia e a prevalência de disfoni
 Em nossa amostra, o grupo onde a disfonia foi identificada foi submetido a cirurgias mais longas.
 
 A complexidade da cirurgia também parece ser um fator, onde a ACA com 3 ou mais níveis está significativamente associada à prevalência de disfonia.
+
+Este trabalho indica que ACAs com maior grau de complexidade (onde são necessários 2 ou mais níveis) aumentam a ocorrência de disfonia.
+Há evidências também que ACAs com duração maiores ou iguais a 2 horas estão associadas a este desfecho.
+
+Não foi possível observar associação entre nenhuma das variáveis estudadas e a disfagia.
+Observamos no entanto o baixo poder estatístico devido a baixa representatividade de alguns grupos, afetando a confiança das estatísticas obtidas neste estudo.
