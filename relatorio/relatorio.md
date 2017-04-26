@@ -14,6 +14,7 @@ Para avaliar se houve associação entre as variáveis coletadas e os foi usada 
 Foram apresentados também os intervalos de confiança de 95% da OR (IC 95%).
 Para isto, os dados foram estruturados em categorias binárias, e comparados com a presença ou ausência de disfagia, e também com a presença ou ausência de disfonia.
 Dentre as variáveis contínuas assim categorizadas, o IMC de cada paciente foi simplificado como obesidade (IMC>=30) e o tempo da cirurgia foi categorizado como cirurgias longas (>= 2 horas) ou curtas (< 2 horas).
+Para avaliar diferença das variáveis contínuas foi usado o teste t de student.
 
 Todas as análises foram efetuadas no software de análises estatísticas R 3.4.0 (https://www.R-project.org/).
 
