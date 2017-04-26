@@ -1,12 +1,4 @@
----
-title: "Análise do projeto de artigo"
-output:
-  html_document:
-    keep_md: yes
-  html_notebook: default
-  pdf_document: default
-  word_document: default
----
+# Análise do projeto de artigo
 
 # Materiais e Métodos
 
@@ -37,22 +29,13 @@ Trata-se de uma amostra de conveniência, e o cálculo amostral tem como base o 
 
 As variáveis contínuas foram categorizadas como 
 
-```{r setup, include = FALSE}
-library(pander)
-knitr::opts_knit$set(root.dir = "..")
-```
 
-```{r input, echo = FALSE}
-source("./scripts/input.R", encoding = 'UTF-8')
 
-```
+
 
 # Resultados
 
-```{r associacao, echo = FALSE}
-source("scripts/associacao.R", encoding = 'UTF-8')
-source("scripts/tabela1.R", encoding = 'UTF-8')
-```
+
 
 Os 47 pacientes observados possuem idades entre 41 e 77 anos, IMC entre 20.8 e 44.8 kg/m2, e o tempo da cirurgia variando entre 1 hora e 15 minutos e 5 horas e 30 minutos.
 Estas variáveis estão descritas nas tabelas xx e xx, estratificados de acordo com os desfechos Disfonia e Disfagia, respectivamente.
@@ -69,9 +52,18 @@ Os dados coletados são apresentados estratificados por disfagia (Tabela xx) e p
 
 Na tabela xx pode-se observar que não há diferença significativa entre as idades, o IMC ou a duração da cirurgia (em minutos).
 
-```{r disfonia, echo = F}
-pander(tabela.disfonia)
-```
+
+--------------------------------------------------------------------
+         &nbsp;                 0              1          p    test 
+------------------------- -------------- -------------- ----- ------
+          **n**                 36             11                   
+
+  **IDADE (mean (sd))**    55.28 (8.61)   59.36 (7.54)  0.164       
+
+   **IMC (mean (sd))**     28.53 (4.58)   26.68 (4.11)  0.262       
+
+ **DURACAO (mean (sd))**  172.78 (71.77) 229.55 (48.76) 0.018       
+--------------------------------------------------------------------
 
 No grupo de pacientes que desenvolveram disfonia, a idade média (DP) observada foi 59.36 (7.54) anos enquanto nos pacientes que não apresentaram esta condição a idade média (DP) foi 55.28 (8.61) anos.
 Não há diferença significativa entre as idades dos grupos (p = 0.164).
@@ -81,24 +73,33 @@ O IMC também não evidencia diferença significativa entre os grupos (p = 0.262
 O tempo de cirurgia foi significativamente diferente entre os grupos (p = 0.018), sendo que o grupo que apresentou disfonia teve procedimentos com uma média (DP) de 229.55 (48.76) minutos, enquanto o grupo onde não foi observada a disfonia teve média (DP) de 172.78 (71.77) minutos.
 Isto indica que, em nossa amostra, o tempo médio de cirurgia foi maior no grupo que foi diagnosticado com disfonia, em relação aos que tiveram este diagnóstico rejeitado.
 
-Parece haver uma associação estatisticamente significativa entre a quantidade de níveis na cirurgia e a prevalência de disfonia (p-valor = `r format.or(niveis.disfon)`).
-Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirurgias longas (`r format.or(cir.disfon)`).
+Parece haver uma associação estatisticamente significativa entre a quantidade de níveis na cirurgia e a prevalência de disfonia (p-valor = OR: 7; IC 95%: [1.3, 43.9]).
+Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirurgias longas (OR: 13.3; IC 95%: [1.6, 633.5]).
 
 Não observamos neste estudo evidências de associação entre disfonia e
-gênero (`r format.or(gen.disfon) `),
-obesidade (`r format.or(ob.disfon)`),
-presença de fraturas ou sequelas (`r format.or(frat.disfon)`),
-presença de mielopatia (`r format.or(mielo.disfon)`),
-o uso de placas (`r format.or(placa.disfon)`),
-no número de corpectomias (`r format.or(corpec.disfon)`)
+gênero (OR: 0.3; IC 95%: [0.1, 1.6]),
+obesidade (OR: 0.6; IC 95%: [0, 3.6]),
+presença de fraturas ou sequelas (OR: 0; IC 95%: [0, 8.2]),
+presença de mielopatia (OR: 1.3; IC 95%: [0.3, 9.2]),
+o uso de placas (OR: Inf; IC 95%: [0, Inf]),
+no número de corpectomias (OR: 3.4; IC 95%: [0, 281.7])
 ou
-se o procedimento foi executado na região alta da cervical (`r format.or(cervic.disfon)`).
+se o procedimento foi executado na região alta da cervical (OR: 2.5; IC 95%: [0.4, 27.2]).
 
 ## Disfagia
 
-```{r disfagia, echo = F}
-pander(tabela.disfagia)
-```
+
+--------------------------------------------------------------------
+         &nbsp;                 0              1          p    test 
+------------------------- -------------- -------------- ----- ------
+          **n**                 11             36                   
+
+  **IDADE (mean (sd))**    53.27 (9.74)   57.14 (7.98)  0.188       
+
+   **IMC (mean (sd))**     29.05 (6.18)   27.79 (3.91)  0.446       
+
+ **DURACAO (mean (sd))**  174.55 (65.44) 189.58 (72.99) 0.544       
+--------------------------------------------------------------------
 
 Na estratificação por disfagia, não foi observada diferença significativa na idade (p = 0.188), IMC (p = 0.446) e no tempo de cirurgia em minutos (p = 0.544).
 A idade média (DP) dos pacientes que apresentaram disfagia foi 57.14 (7.98) anos e dos pacientes que não apresentaram foi 53.27 (9.74) anos.
@@ -106,13 +107,13 @@ O IMC médio (DP) nos pacientes disfágicos foi 27.79 (3.91) kg/m2 e nos pacient
 A duração média (DP) da cirurgia dos pacientes diagnosticados com disfagia foi 189.58 (72.99) minutos, enquanto os pacientes que não apresentaram foi 174.55 (65.44) minutos.
 
 Não observamos neste estudo evidências de associação entre disfagia e
-gênero (`r format.or(gen.disfag) `),
-obesidade (`r format.or(ob.disfag)`),
-presença de fraturas ou sequelas (`r format.or(frat.disfag)`),
-presença de mielopatia (`r format.or(mielo.disfag)`),
-o uso de placas (`r format.or(placa.disfag)`),
-no número de corpectomias (`r format.or(corpec.disfag)`)
+gênero (OR: 0.2; IC 95%: [0, 1.3]),
+obesidade (OR: 1.8; IC 95%: [0.3, 20.4]),
+presença de fraturas ou sequelas (OR: 0.6; IC 95%: [0, 38.1]),
+presença de mielopatia (OR: 2.1; IC 95%: [0.4, 10.7]),
+o uso de placas (OR: 0; IC 95%: [0, 127.4]),
+no número de corpectomias (OR: Inf; IC 95%: [0.1, Inf])
 ou
-se o procedimento foi executado na região alta da cervical (`r format.or(cervic.disfag)`),
-pacientes submetidos a cirurgias longas (`r format.or(cir.disfag)`) ou
-quantidade de níveis na cirurgia (p-valor = `r format.or(niveis.disfag)`).
+se o procedimento foi executado na região alta da cervical (OR: 1.3; IC 95%: [0.2, 6.4]),
+pacientes submetidos a cirurgias longas (OR: 0.9; IC 95%: [0.2, 4.4]) ou
+quantidade de níveis na cirurgia (p-valor = OR: 1.5; IC 95%: [0.2, 16.7]).
