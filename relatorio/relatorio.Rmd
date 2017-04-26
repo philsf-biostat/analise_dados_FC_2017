@@ -54,8 +54,14 @@ source("scripts/associacao.R", encoding = 'UTF-8')
 source("scripts/tabela1.R", encoding = 'UTF-8')
 ```
 
-Os pacientes observados possuem idades entre 41 e 77 anos, IMC entre 20.8 e 44.8 kg/m2, e o tempo da cirurgia variando entre 1 hora e 15 minutos e 5 horas e 30 minutos.
+Os 47 pacientes observados possuem idades entre 41 e 77 anos, IMC entre 20.8 e 44.8 kg/m2, e o tempo da cirurgia variando entre 1 hora e 15 minutos e 5 horas e 30 minutos.
 Estas variáveis estão descritas nas tabelas xx e xx, estratificados de acordo com os desfechos Disfonia e Disfagia, respectivamente.
+
+A disfagia foi diagnosticada em 11 (23,4%) pacientes, a disfonia foi diagnosticada em 36 (76,6%).
+Dentre os 47 pacientes 11 (23.4%) tiveram diagnóstico negativo para ambas condições e 11 (23.4%) tiveram diagnóstico positivo para ambas condições. 
+Houve 25 (53.2%) pacientes diagnosticados com disfagia, mas que não apresentaram disfonia.
+Nenhum paciente apresentou disfonia sem apresentar disfagia.
+Os dados coletados são apresentados estratificados por disfagia (Tabela xx) e por disfonia (Tabela xx).
 
 ## Disfonia
 
