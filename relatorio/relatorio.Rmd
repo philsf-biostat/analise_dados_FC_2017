@@ -20,10 +20,16 @@ source("./scripts/input.R", encoding = 'UTF-8')
 
 # Métodos
 
+As variáveis categóricas foram descritas como frequência e proporção (%).
+As variáveis contínuas foram descritas como média e desvio-padrão (DP).
+Além da descrição sumária, as variáveis contínuas foram convertidas em categóricas para determinar se havia associação nos desfechos disfagia e disfonia.
+
 Para avaliar se houve associação entre as variáveis coletadas e os foi usada a razão de chances (OR, odds-ratio em inglês).
 Foram apresentados também os intervalos de confiança de 95% da OR (IC 95%).
 Para isto, os dados foram estruturados em categorias binárias, e comparados com a presença ou ausência de disfagia, e também com a presença ou ausência de disfonia.
 Dentre as variáveis contínuas assim categorizadas, o IMC de cada paciente foi simplificado como obesidade (IMC>=30) e o tempo da cirurgia foi categorizado como cirurgias longas (>= 2 horas) ou curtas (< 2 horas).
+
+Todas as análises foram efetuadas no software de análises estatísticas R 3.4.0 (https://www.R-project.org/).
 
 # Resultados
 
