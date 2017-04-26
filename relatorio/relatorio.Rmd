@@ -65,8 +65,8 @@ Na tabela xx pode-se observar que não há diferença significativa entre as ida
 pander(tabela.disfonia)
 ```
 
-Parece haver uma associação estatísticamente significativa entre a quantidade de níveis na cirirgia e a prevalência de disfonia (p-valor = `r format.or(niveis.disfon)`).
-Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirirgias longas (`r format.or(cir.disfon)`).
+Parece haver uma associação estatisticamente significativa entre a quantidade de níveis na cirurgia e a prevalência de disfonia (p-valor = `r format.or(niveis.disfon)`).
+Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirurgias longas (`r format.or(cir.disfon)`).
 
 Não observamos neste estudo evidências de associação entre disfonia e
 gênero (`r format.or(gen.disfon) `),
@@ -93,5 +93,5 @@ o uso de placas (`r format.or(placa.disfag)`),
 no número de corpectomias (`r format.or(corpec.disfag)`)
 ou
 se o procedimento foi executado na região alta da cervical (`r format.or(cervic.disfag)`),
-pacientes submetidos a cirirgias longas (`r format.or(cir.disfag)`) ou
-quantidade de níveis na cirirgia (p-valor = `r format.or(niveis.disfag)`).
+pacientes submetidos a cirurgias longas (`r format.or(cir.disfag)`) ou
+quantidade de níveis na cirurgia (p-valor = `r format.or(niveis.disfag)`).

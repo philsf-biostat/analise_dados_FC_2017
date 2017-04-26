@@ -57,8 +57,8 @@ Na tabela xx pode-se observar que não há diferença significativa entre as ida
  **DURACAO (mean (sd))**  172.78 (71.77) 229.55 (48.76) 0.018       
 --------------------------------------------------------------------
 
-Parece haver uma associação estatísticamente significativa entre a quantidade de níveis na cirirgia e a prevalência de disfonia (p-valor = OR: 7; IC 95%: [1.3, 43.9]).
-Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirirgias longas (OR: 13.3; IC 95%: [1.6, 633.5]).
+Parece haver uma associação estatisticamente significativa entre a quantidade de níveis na cirurgia e a prevalência de disfonia (p-valor = OR: 7; IC 95%: [1.3, 43.9]).
+Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirurgias longas (OR: 13.3; IC 95%: [1.6, 633.5]).
 
 Não observamos neste estudo evidências de associação entre disfonia e
 gênero (OR: 0.3; IC 95%: [0.1, 1.6]),
@@ -94,5 +94,5 @@ o uso de placas (OR: 0; IC 95%: [0, 127.4]),
 no número de corpectomias (OR: Inf; IC 95%: [0.1, Inf])
 ou
 se o procedimento foi executado na região alta da cervical (OR: 1.3; IC 95%: [0.2, 6.4]),
-pacientes submetidos a cirirgias longas (OR: 0.9; IC 95%: [0.2, 4.4]) ou
-quantidade de níveis na cirirgia (p-valor = OR: 1.5; IC 95%: [0.2, 16.7]).
+pacientes submetidos a cirurgias longas (OR: 0.9; IC 95%: [0.2, 4.4]) ou
+quantidade de níveis na cirurgia (p-valor = OR: 1.5; IC 95%: [0.2, 16.7]).
