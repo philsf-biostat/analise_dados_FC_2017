@@ -4,6 +4,13 @@
 
 
 
+# Métodos
+
+Para avaliar se houve associação entre as variáveis coletadas e os foi usada a razão de chances (OR, odds-ratio em inglês).
+Foram apresentados também os intervalos de confiança de 95% da OR (IC 95%).
+Para isto, os dados foram estruturados em categorias binárias, e comparados com a presença ou ausência de disfagia, e também com a presença ou ausência de disfonia.
+Dentre as variáveis contínuas assim categorizadas, o IMC de cada paciente foi simplificado como obesidade (IMC>=30) e o tempo da cirurgia foi categorizado como cirurgias longas (>= 2 horas) ou curtas (< 2 horas).
+
 # Resultados
 
 
