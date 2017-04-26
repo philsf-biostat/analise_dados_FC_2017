@@ -32,7 +32,7 @@ DF$PLACA <- factor(DF$PLACA)
 DF$GENERO <- factor(DF$GENERO)
 DF$PRONTUÁRIO <- factor(DF$PRONTUÁRIO)
 DF$IMC <- DF[,.(PESO/(ALTURA^2))]
-DF$OBESO <- cut(DF$IMC, breaks = c(0,30, Inf), include.lowest = T, labels = c(0, 1))
+DF$OBESO <- cut(DF$IMC, breaks = c(0,30, Inf), labels = c(0, 1))
 DF$DURACAO <- DF[, .( hour(`DURAÇÃO CIR`)*60 + minute(`DURAÇÃO CIR`) ) ]
 
 DF$DUR.cat <- DF[, .( factor(hour(`DURAÇÃO CIR`)))]
