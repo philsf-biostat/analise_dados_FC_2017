@@ -99,7 +99,7 @@ se o procedimento foi executado na região alta da cervical (OR: 2.5; IC 95%: [0
  **DURACAO (mean (sd))**  174.55 (65.44) 189.58 (72.99) 0.544       
 --------------------------------------------------------------------
 
-Na estratificação por disfagia, não foi observada diferença significativa na idade ( p = 0.188 ), IMC ( p = 0.446 ) e no tempo de cirurgia em minutos ( p = 0.544 ).
+Na estratificação por disfagia, não foi observada diferença significativa na idade (p = 0.188), IMC (p = 0.446) e no tempo de cirurgia em minutos (p = 0.544).
 A idade média (DP) dos pacientes que apresentaram disfagia foi 57.14 (7.98) anos e dos pacientes que não apresentaram foi 53.27 (9.74) anos.
 O IMC médio (DP) nos pacientes disfágicos foi 27.79 (3.91) kg/m2 e nos pacientes não disfágicos 29.05 (6.18) kg/m2.
 A duração média (DP) da cirurgia dos pacientes diagnosticados com disfagia foi 189.58 (72.99) minutos, enquanto os pacientes que não apresentaram foi 174.55 (65.44) minutos.
