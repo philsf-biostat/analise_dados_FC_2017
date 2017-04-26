@@ -1,37 +1,22 @@
 # Análise do projeto de artigo
 
-# Materiais e Métodos
-
-Estudo retrospectivo realizado no Instituto Nacional de Traumatologia e Ortopedia Jamil Haddad-INTO/MS, foram obtidos dados clínicos e radiológicos de todos os pacientes submetidos à ACA no período janeiro de 2015 a fevereiro de 2017 após aprovação no Comitê de Ética em Pesquisa da Instituição.
-Os dados foram obtidos dos prontuários dos pacientes e exames de imagem disponíveis.
-
-Foram selecionados, 66 pacientes que foram submetidos a ACA primárias neste período, 8 foram excluídos por apresentarem artrodese cervical posterior (ACP) nos níveis da ACA e 11 por não apresentarem dados no prontuário que pudesse corroborar para o diagnóstico.
-Restando um total de 47 pacientes incluídos no estudo.
-
-Os dados do prontuário foram colhidos e avaliados em conjunto pela equipe médica e de fonoaudiologia do INTO, enfatizando a voz, avaliação percepto-auditiva, e a deglutição referentes aos períodos pré e pós-operatórios.
-Os dados colhidos no prontuário foram: número do prontuário; sexo; idade; data da cirurgia; cirurgia realizada; presença de mielopatia associada; duração da cirurgia; peso e altura para cálculo do índice de massa corpórea (IMC); indicação da cirurgia; comorbidadesassociadas; Escala Funcional de Ingestão Por Via Oral (Functional Oral Intake Scale - FOIS) pré e pós-operatórios e a presença de outros sinais de disfagia.
-
-Foram extraídos dados do prontuário a fim de verificar a pontuação do paciente no protocolo validado FOIS para avaliação e classificação da deglutição na escala de nível 0 a 7, na data da avaliação clínica fonoaudiológica no pré-operatório (FOIS pré-op) e nos dias subsequentes a cirurgia até a alta hospitalar (FOIS pós-op).
-A melhora na FOIS foi admitida como a mudança de nível na escala para níveis mais altos e a piora na escala FOIS a mudança de nível para valores mais baixos.
-
-De acordo com o protocolo do serviço a oferta de dieta líquida, é feita no primeiro dia após a cirurgia, por tanto, todos os pacientes deveriam estar no nível 5 da FOIS.
-Foi analisada a progressão de consistências e a evolução gradativa na escala FOIS, associada com a presença ou ausência de sintomas referente à disfagia.
-Desta forma no segundo dia após a cirurgia, o paciente deveria ser capaz de se alimentar com uma dieta pastosa e se enquadrar no nível 6 da FOIS.
-No terceiro dia de pós-operatório, o paciente seria capaz de ingerir uma dieta oral total sem restrições conforme o nível 7 da FOIS.
-Qualquer atraso nesta evolução ou regressão na escala, levou a conclusão de um evento de disfagia no pós-operatório.
-Além da análise de melhora ou não na escala FOIS pré e pós-operatória, foram consideradas as queixas relacionadas a disfagia, levantadas na literatura: odinofagia; tosse; engasgos com alimentos e/ou saliva. 
-
-A análise vocal foi subjetiva, considerando a queixa do paciente e a percepção do avaliador relatadas em prontuário.
-
-Trata-se de uma amostra de conveniência, e o cálculo amostral tem como base o número de pacientes que realizaram a cirurgia de Artrodese Cervical Anterior no período descrito acima.
-
-## Análise Estatística
-
-As variáveis contínuas foram categorizadas como 
 
 
 
 
+# Métodos
+
+As variáveis categóricas foram descritas como frequência e proporção (%).
+As variáveis contínuas foram descritas como média e desvio-padrão (DP).
+Além da descrição sumária, as variáveis contínuas foram convertidas em categóricas para determinar se havia associação nos desfechos disfagia e disfonia.
+
+Para avaliar se houve associação entre as variáveis coletadas e os foi usada a razão de chances (OR, odds-ratio em inglês).
+Foram apresentados também os intervalos de confiança de 95% da OR (IC 95%).
+Para isto, os dados foram estruturados em categorias binárias, e comparados com a presença ou ausência de disfagia, e também com a presença ou ausência de disfonia.
+Dentre as variáveis contínuas assim categorizadas, o IMC de cada paciente foi simplificado como obesidade (IMC>=30) e o tempo da cirurgia foi categorizado como cirurgias longas (>= 2 horas) ou curtas (< 2 horas).
+Para avaliar diferença das variáveis contínuas foi usado o teste t de student.
+
+Todas as análises foram efetuadas no software de análises estatísticas R 3.4.0 (https://www.R-project.org/).
 
 # Resultados
 
