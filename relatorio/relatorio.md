@@ -39,6 +39,8 @@ As variáveis contínuas foram categorizadas como
 
 Os 47 pacientes observados possuem idades entre 41 e 77 anos, IMC entre 20.8 e 44.8 kg/m2, e o tempo da cirurgia variando entre 1 hora e 15 minutos e 5 horas e 30 minutos.
 Estas variáveis estão descritas nas tabelas xx e xx, estratificados de acordo com os desfechos Disfonia e Disfagia, respectivamente.
+Dos 47 pacientes da amostra, 5 não tiveram informações disponíveis de altura e/ou peso necessárias para o cálculo do IMC, portanto este dado foi calculado com os 42 pacientes em que estes dados estavam disponíveis.
+Todos os outros dados estavam completos (N=47).
 
 A disfagia foi diagnosticada em 11 (23,4%) pacientes, a disfonia foi diagnosticada em 36 (76,6%).
 Dentre os 47 pacientes 11 (23.4%) tiveram diagnóstico negativo para ambas condições e 11 (23.4%) tiveram diagnóstico positivo para ambas condições. 
