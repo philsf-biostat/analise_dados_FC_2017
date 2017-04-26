@@ -117,3 +117,10 @@ ou
 se o procedimento foi executado na região alta da cervical (OR: 1.3; IC 95%: [0.2, 6.4]),
 pacientes submetidos a cirurgias longas (OR: 0.9; IC 95%: [0.2, 4.4]) ou
 quantidade de níveis na cirurgia (p-valor = OR: 1.5; IC 95%: [0.2, 16.7]).
+
+# Discussão
+
+Parece haver uma relação entre o tempo de cirurgia e a prevalência de disfonia, onde cirurgias longas seriam um fator de risco para esta condição (ou seu diagnóstico).
+Em nossa amostra, o grupo onde a disfonia foi identificada foi submetido a cirurgias mais longas.
+
+A complexidade da cirurgia também parece ser um fator, onde a ACA com 3 ou mais níveis está significativamente associada à prevalência de disfonia.
