@@ -32,8 +32,10 @@ DF$PLACA <- factor(DF$PLACA)
 DF$GENERO <- factor(DF$GENERO)
 DF$PRONTUÁRIO <- factor(DF$PRONTUÁRIO)
 DF$IMC <- DF[,.(PESO/(ALTURA^2))]
-DF$OBESO <- cut(DF$IMC, breaks = c(0,30, Inf), include.lowest = T, labels = c(0, 1))
+DF$OBESO <- cut(DF$IMC, breaks = c(0,30, Inf), labels = c(0, 1))
 DF$DURACAO <- DF[, .( hour(`DURAÇÃO CIR`)*60 + minute(`DURAÇÃO CIR`) ) ]
 
 DF$DUR.cat <- DF[, .( factor(hour(`DURAÇÃO CIR`)))]
 LONGA <- cut(hour(DF$`DURAÇÃO CIR`), breaks = c(0,2, Inf), labels = c(0, 1))
+levels(DF$NIVEIS) <-  c("Até 2", "Até 2", "3 ou mais", "3 ou mais")
+levels(DF$CORPECTOMIAS) <- c("Até 1", "Até 1", "2")
