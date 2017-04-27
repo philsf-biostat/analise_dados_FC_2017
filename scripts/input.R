@@ -38,4 +38,4 @@ DF$DURACAO <- DF[, .( hour(`DURAÇÃO CIR`)*60 + minute(`DURAÇÃO CIR`) ) ]
 DF$DUR.cat <- DF[, .( factor(hour(`DURAÇÃO CIR`)))]
 LONGA <- cut(hour(DF$`DURAÇÃO CIR`), breaks = c(0,2, Inf), labels = c(0, 1))
 levels(DF$NIVEIS) <-  c("Até 2", "Até 2", "3 ou mais", "3 ou mais")
-levels(DF$CORPECTOMIAS) <- c("Até 1", "Até 1", "2")
+levels(DF$CORPECTOMIAS) <- c(0, 1, 1)
