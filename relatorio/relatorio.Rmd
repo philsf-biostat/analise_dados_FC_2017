@@ -24,12 +24,13 @@ As variáveis categóricas foram descritas como frequência e proporção (%).
 As variáveis contínuas foram descritas como média e desvio-padrão (DP).
 Além da descrição sumária, as variáveis contínuas foram convertidas em categóricas para determinar se havia associação nos desfechos disfagia e disfonia.
 
-Foram utiluzados dois critérios complenentares para inferir se houve associação entre as variáveis coletadas e os desfechos observados.
+Foram utilizados dois critérios complementares para inferir se houve associação entre as variáveis coletadas e os desfechos observados.
 Para as variáveis contínuas foi usado o teste t de student.
 No caso das variáveis categóricas foi usada a razão de chances (OR, odds-ratio em inglês).
 Foram apresentados também os intervalos de confiança de 95% da OR (IC 95%).
 Para determinação do OR os dados foram estruturados em categorias binárias, e comparados com a presença ou ausência de disfagia, e também com a presença ou ausência de disfonia.
-Dentre as variáveis contínuas assim categorizadas, o IMC de cada paciente foi simplificado como obesidade (IMC>=30) e o tempo da cirurgia foi categorizado como cirurgias longas (>= 2 horas) ou curtas (< 2 horas).
+Os dados estudados foram: gênero, cirurgia realizada por fratura ou sequela de fratura, mielopatia associada, uso de placa cervical anterior para fixação da artrodese e extensão das cirurgias até a região cervical alta (quando o nível proximal era C4 ou superior).
+Dentre as variáveis contínuas assim categorizadas, o IMC de cada paciente foi simplificado como obesidade (IMC>=30), o tempo da cirurgia foi categorizado como cirurgias longas (>= 2 horas) ou curtas (< 2 horas), a quantidade de níveis de cirurgia foi categorizada como cirurgias pequenas (1 ou dois níveis de artrodese) ou grandes (3 ou mais níveis) e a presença ou ausência de corpectomias.
 
 Todas as análises estatísticas foram executadas no R 3.4.0 (https://www.R-project.org/).
 
