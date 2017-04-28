@@ -58,7 +58,7 @@ obesidade (OR: 0.6; IC 95%: [0, 3.6]),
 presença de fraturas ou sequelas (OR: 0; IC 95%: [0, 8.2]),
 presença de mielopatia (OR: 1.3; IC 95%: [0.3, 9.2]),
 o uso de placas (OR: Inf; IC 95%: [0, Inf]),
-no número de corpectomias (OR: 3.4; IC 95%: [0, 281.7])
+presença de corpectomias (OR: 1.1; IC 95%: [0.2, 6.1])
 ou
 se o procedimento foi executado na região alta da cervical (OR: 2.5; IC 95%: [0.4, 27.2]).
 
@@ -77,7 +77,7 @@ obesidade (OR: 1.8; IC 95%: [0.3, 20.4]),
 presença de fraturas ou sequelas (OR: 0.6; IC 95%: [0, 38.1]),
 presença de mielopatia (OR: 2.1; IC 95%: [0.4, 10.7]),
 o uso de placas (OR: 0; IC 95%: [0, 127.4]),
-no número de corpectomias (OR: Inf; IC 95%: [0.1, Inf])
+presença de corpectomias (OR: 0.5; IC 95%: [0.1, 3])
 ou
 se o procedimento foi executado na região alta da cervical (OR: 1.3; IC 95%: [0.2, 6.4]),
 pacientes submetidos a cirurgias longas (OR: 0.9; IC 95%: [0.2, 4.4]) ou

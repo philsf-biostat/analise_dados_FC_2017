@@ -77,7 +77,7 @@ obesidade (`r format.or(ob.disfon)`),
 presença de fraturas ou sequelas (`r format.or(frat.disfon)`),
 presença de mielopatia (`r format.or(mielo.disfon)`),
 o uso de placas (`r format.or(placa.disfon)`),
-no número de corpectomias (`r format.or(corpec.disfon)`)
+presença de corpectomias (`r format.or(corpec.disfon)`)
 ou
 se o procedimento foi executado na região alta da cervical (`r format.or(cervic.disfon)`).
 
@@ -98,7 +98,7 @@ obesidade (`r format.or(ob.disfag)`),
 presença de fraturas ou sequelas (`r format.or(frat.disfag)`),
 presença de mielopatia (`r format.or(mielo.disfag)`),
 o uso de placas (`r format.or(placa.disfag)`),
-no número de corpectomias (`r format.or(corpec.disfag)`)
+presença de corpectomias (`r format.or(corpec.disfag)`)
 ou
 se o procedimento foi executado na região alta da cervical (`r format.or(cervic.disfag)`),
 pacientes submetidos a cirurgias longas (`r format.or(cir.disfag)`) ou
