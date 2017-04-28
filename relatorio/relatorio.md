@@ -29,7 +29,13 @@ Estas variáveis foram estratificados de acordo com os desfechos de disfagia e d
 Dos 47 pacientes da amostra, 5 não tiveram informações disponíveis de altura e/ou peso necessárias para o cálculo do IMC, portanto este dado foi calculado com os 42 pacientes em que estes dados estavam disponíveis.
 Todas as outras informações estavam completos (N=47).
 
-A disfagia foi diagnosticada em 11 (23,4%) pacientes, a disfonia foi diagnosticada em 36 (76,6%).
+## Prevalência da disfagia e disfonia
+
+
+
+A disfagia foi diagnosticada em 11 pacientes, com taxa de prevalência estimada em 23.4% (IC 95%: [12.8%, 38.4%]).
+A disfonia foi diagnosticada em 36 pacientes com taxa de prevalência estimada em 76.6% (IC 95%: [61.6%, 87.2%]).
+
 Dentre os 47 pacientes, 11 (23.4%) tiveram diagnóstico negativo para ambas condições e 11 (23.4%) tiveram diagnóstico positivo para ambas condições.
 Houve 25 (53.2%) pacientes diagnosticados com disfagia, mas que não apresentaram disfonia.
 Nenhum paciente apresentou disfonia sem apresentar disfagia.
