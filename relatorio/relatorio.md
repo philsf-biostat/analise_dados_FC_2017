@@ -35,6 +35,27 @@ Houve 25 (53.2%) pacientes diagnosticados com disfagia, mas que não apresentara
 Nenhum paciente apresentou disfonia sem apresentar disfagia.
 Os dados coletados são apresentados estratificados por disfagia (Tabela xx) e por disfonia (Tabela xx).
 
+## Disfagia
+
+
+
+Na estratificação por disfagia, não foi observada diferença significativa na idade (p = 0.188), IMC (p = 0.446) e no tempo de cirurgia em minutos (p = 0.544).
+A idade média (DP) dos pacientes que apresentaram disfagia foi 57.14 (7.98) anos e dos pacientes que não apresentaram foi 53.27 (9.74) anos.
+O IMC médio (DP) nos pacientes disfágicos foi 27.79 (3.91) kg/m2 e nos pacientes não disfágicos 29.05 (6.18) kg/m2.
+A duração média (DP) da cirurgia dos pacientes diagnosticados com disfagia foi 189.58 (72.99) minutos, enquanto os pacientes que não apresentaram foi 174.55 (65.44) minutos.
+
+Não observamos neste estudo evidências de associação entre disfagia e
+gênero (OR: 0.2; IC 95%: [0, 1.3]),
+obesidade (OR: 1.8; IC 95%: [0.3, 20.4]),
+presença de fraturas ou sequelas (OR: 0.6; IC 95%: [0, 38.1]),
+presença de mielopatia (OR: 2.1; IC 95%: [0.4, 10.7]),
+o uso de placas (OR: 0; IC 95%: [0, 127.4]),
+presença de corpectomias (OR: 0.5; IC 95%: [0.1, 3])
+ou
+se o procedimento foi executado na região alta da cervical (OR: 1.3; IC 95%: [0.2, 6.4]),
+pacientes submetidos a cirurgias longas (OR: 0.9; IC 95%: [0.2, 4.4]) ou
+quantidade de níveis na cirurgia (p-valor = OR: 1.5; IC 95%: [0.2, 16.7]).
+
 ## Disfonia
 
 Na tabela xx pode-se observar que não há diferença significativa entre as idades, o IMC ou a duração da cirurgia (em minutos).
@@ -61,27 +82,6 @@ o uso de placas (OR: Inf; IC 95%: [0, Inf]),
 presença de corpectomias (OR: 1.1; IC 95%: [0.2, 6.1])
 ou
 se o procedimento foi executado na região alta da cervical (OR: 2.5; IC 95%: [0.4, 27.2]).
-
-## Disfagia
-
-
-
-Na estratificação por disfagia, não foi observada diferença significativa na idade (p = 0.188), IMC (p = 0.446) e no tempo de cirurgia em minutos (p = 0.544).
-A idade média (DP) dos pacientes que apresentaram disfagia foi 57.14 (7.98) anos e dos pacientes que não apresentaram foi 53.27 (9.74) anos.
-O IMC médio (DP) nos pacientes disfágicos foi 27.79 (3.91) kg/m2 e nos pacientes não disfágicos 29.05 (6.18) kg/m2.
-A duração média (DP) da cirurgia dos pacientes diagnosticados com disfagia foi 189.58 (72.99) minutos, enquanto os pacientes que não apresentaram foi 174.55 (65.44) minutos.
-
-Não observamos neste estudo evidências de associação entre disfagia e
-gênero (OR: 0.2; IC 95%: [0, 1.3]),
-obesidade (OR: 1.8; IC 95%: [0.3, 20.4]),
-presença de fraturas ou sequelas (OR: 0.6; IC 95%: [0, 38.1]),
-presença de mielopatia (OR: 2.1; IC 95%: [0.4, 10.7]),
-o uso de placas (OR: 0; IC 95%: [0, 127.4]),
-presença de corpectomias (OR: 0.5; IC 95%: [0.1, 3])
-ou
-se o procedimento foi executado na região alta da cervical (OR: 1.3; IC 95%: [0.2, 6.4]),
-pacientes submetidos a cirurgias longas (OR: 0.9; IC 95%: [0.2, 4.4]) ou
-quantidade de níveis na cirurgia (p-valor = OR: 1.5; IC 95%: [0.2, 16.7]).
 
 # Discussão
 
