@@ -1,22 +1,8 @@
----
-title: "Análise do projeto de artigo"
-output:
-  html_document:
-    keep_md: yes
-  html_notebook: default
-  pdf_document: default
-  word_document: default
----
+# Análise do projeto de artigo
 
-```{r setup, include = FALSE}
-library(pander)
-knitr::opts_knit$set(root.dir = "..")
-```
 
-```{r input, echo = FALSE}
-source("./scripts/input.R", encoding = 'UTF-8')
 
-```
+
 
 # Métodos
 
@@ -36,10 +22,7 @@ Todas as análises estatísticas foram executadas no R 3.4.0 (https://www.R-proj
 
 # Resultados
 
-```{r associacao, echo = FALSE}
-source("scripts/associacao.R", encoding = 'UTF-8')
-source("scripts/tabela1.R", encoding = 'UTF-8')
-```
+
 
 Os 47 pacientes observados possuem idades entre 41 e 77 anos, IMC entre 20.8 e 44.8 kg/m2, e o tempo da cirurgia variando entre 1 hora e 15 minutos e 5 horas e 30 minutos.
 Estas variáveis foram estratificados de acordo com os desfechos de disfagia e disfonia.
@@ -48,13 +31,10 @@ Todas as outras informações estavam completos (N=47).
 
 ## Prevalência da disfagia e disfonia
 
-```{r, include = F}
-round(prop.test(table(DF$DISFAGIA))$conf.int*100, 1)
-round(prop.test(table(DF$DISFONIA))$conf.int*100, 1)
-```
 
-A disfagia foi diagnosticada em 11 pacientes, com taxa de prevalência estimada em 23.4% (IC 95%: [12.8%, 38.4%]).
-A disfonia foi diagnosticada em 36 pacientes com taxa de prevalência estimada em 76.6% (IC 95%: [61.6%, 87.2%]).
+
+A disfagia foi diagnosticada em 11 pacientes, com taxa de prevalência estimada em 23.4% (IC 95%: [12.8%, 38.4%]) no período estudado.
+A disfonia foi diagnosticada em 36 pacientes com taxa de prevalência estimada em 76.6% (IC 95%: [61.6%, 87.2%]) no período estudado.
 
 Dentre os 47 pacientes, 11 (23.4%) tiveram diagnóstico negativo para ambas condições e 11 (23.4%) tiveram diagnóstico positivo para ambas condições.
 Houve 25 (53.2%) pacientes diagnosticados com disfagia, mas que não apresentaram disfonia.
@@ -62,9 +42,7 @@ Nenhum paciente apresentou disfonia sem apresentar disfagia.
 
 ## Disfagia
 
-```{r disfagia, echo = F}
-# pander(tabela.disfagia)
-```
+
 
 Na estratificação por disfagia, não foi observada diferença significativa na idade (p = 0.188), IMC (p = 0.446) e no tempo de cirurgia em minutos (p = 0.544).
 A idade média (DP) dos pacientes que apresentaram disfagia foi 57.14 (7.98) anos e dos pacientes que não apresentaram foi 53.27 (9.74) anos.
@@ -72,22 +50,20 @@ O IMC médio (DP) nos pacientes disfágicos foi 27.79 (3.91) kg/m2 e nos pacient
 A duração média (DP) da cirurgia dos pacientes diagnosticados com disfagia foi 189.58 (72.99) minutos, enquanto os pacientes que não apresentaram foi 174.55 (65.44) minutos.
 
 Não observamos neste estudo evidências de associação entre disfagia e
-gênero (`r format.or(gen.disfag) `),
-obesidade (`r format.or(ob.disfag)`),
-presença de fraturas ou sequelas (`r format.or(frat.disfag)`),
-presença de mielopatia (`r format.or(mielo.disfag)`),
-o uso de placas (`r format.or(placa.disfag)`),
-presença de corpectomias (`r format.or(corpec.disfag)`)
+gênero (OR: 0.2; IC 95%: [0, 1.3]),
+obesidade (OR: 1.8; IC 95%: [0.3, 20.4]),
+presença de fraturas ou sequelas (OR: 0.6; IC 95%: [0, 38.1]),
+presença de mielopatia (OR: 2.1; IC 95%: [0.4, 10.7]),
+o uso de placas (OR: 0; IC 95%: [0, 127.4]),
+presença de corpectomias (OR: 0.5; IC 95%: [0.1, 3])
 ou
-se o procedimento foi executado na região alta da cervical (`r format.or(cervic.disfag)`),
-pacientes submetidos a cirurgias longas (`r format.or(cir.disfag)`) ou
-quantidade de níveis na cirurgia (`r format.or(niveis.disfag)`).
+se o procedimento foi executado na região alta da cervical (OR: 1.3; IC 95%: [0.2, 6.4]),
+pacientes submetidos a cirurgias longas (OR: 0.9; IC 95%: [0.2, 4.4]) ou
+quantidade de níveis na cirurgia (OR: 1.5; IC 95%: [0.2, 16.7]).
 
 ## Disfonia
 
-```{r disfonia, echo = F}
-# pander(tabela.disfonia)
-```
+
 
 No grupo de pacientes que desenvolveram disfonia, a idade média (DP) observada foi 59.36 (7.54) anos enquanto nos pacientes que não apresentaram esta condição a idade média (DP) foi 55.28 (8.61) anos.
 Não há diferença significativa entre as idades dos grupos (p = 0.164).
@@ -97,22 +73,22 @@ O IMC também não evidencia diferença significativa entre os grupos (p = 0.262
 O tempo de cirurgia foi significativamente diferente entre os grupos (p = 0.018), sendo que o grupo que apresentou disfonia teve procedimentos com uma média (DP) de 229.55 (48.76) minutos, enquanto o grupo onde não foi observada a disfonia teve média (DP) de 172.78 (71.77) minutos.
 Isto indica que, em nossa amostra, o tempo médio de cirurgia foi maior no grupo que foi diagnosticado com disfonia, em relação aos que tiveram este diagnóstico rejeitado.
 
-Observamos uma associação estatisticamente significativa entre cirurgias grandes e a prevalência de disfonia (`r format.or(niveis.disfon)`).
-Esta taxa significa um aumento de seis vezes na chance deste desfecho.
+Observamos uma associação estatisticamente significativa entre cirurgias grandes e a prevalência de disfonia (OR: 7; IC 95%: [1.3, 43.9]).
+Esta taxa indica um aumento de seis vezes na prevalência deste desfecho no período estudado.
 
-Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirurgias longas (`r format.or(cir.disfon)`).
+Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirurgias longas (OR: 13.3; IC 95%: [1.6, 633.5]).
 Esta evidência porém é fraca devido à pequena quantidade de pacientes disponíveis.
 Apenas um paciente apresentou disfonia com cirurgia curta, portanto não há poder estatístico para avaliar decisivamente a associação entre o tempo de cirurgia e a ocorrência da disfagia.
 
 Não observamos neste estudo evidências de associação entre disfonia e
-gênero (`r format.or(gen.disfon) `),
-obesidade (`r format.or(ob.disfon)`),
-presença de fraturas ou sequelas (`r format.or(frat.disfon)`),
-presença de mielopatia (`r format.or(mielo.disfon)`),
-o uso de placas (`r format.or(placa.disfon)`),
-presença de corpectomias (`r format.or(corpec.disfon)`)
+gênero (OR: 0.3; IC 95%: [0.1, 1.6]),
+obesidade (OR: 0.6; IC 95%: [0, 3.6]),
+presença de fraturas ou sequelas (OR: 0; IC 95%: [0, 8.2]),
+presença de mielopatia (OR: 1.3; IC 95%: [0.3, 9.2]),
+o uso de placas (OR: Inf; IC 95%: [0, Inf]),
+presença de corpectomias (OR: 1.1; IC 95%: [0.2, 6.1])
 ou
-se o procedimento foi executado na região alta da cervical (`r format.or(cervic.disfon)`).
+se o procedimento foi executado na região alta da cervical (OR: 2.5; IC 95%: [0.4, 27.2]).
 
 # Discussão
 
@@ -127,5 +103,4 @@ Há evidências também que ACAs com duração maiores ou iguais a 2 horas estã
 Em nosso estudo, encontramos evidências que cirurgias com três ou mais níveis tem seis vezes mais chance de causar disfonia pós-operatória.
 Para disfagia observamos que não houve associação entre nenhuma das variáveis estudadas.
 Este desfecho se justifica devido ao baixo poder estatístico das análises por pequena representatividade de alguns grupos.
-Evidencia-se assim a necessidade de confirmação dos resultados com novos estudos, especialmente
-desenhados para confirmar ou refutar os resultados aqui obtidos.
+Evidencia-se assim a necessidade de novos estudos especialmente desenhados para confirmar ou refutar os resultados aqui obtidos.
