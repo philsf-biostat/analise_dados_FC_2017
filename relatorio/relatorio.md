@@ -59,7 +59,7 @@ presença de corpectomias (OR: 0.5; IC 95%: [0.1, 3])
 ou
 se o procedimento foi executado na região alta da cervical (OR: 1.3; IC 95%: [0.2, 6.4]),
 pacientes submetidos a cirurgias longas (OR: 0.9; IC 95%: [0.2, 4.4]) ou
-quantidade de níveis na cirurgia (p-valor = OR: 1.5; IC 95%: [0.2, 16.7]).
+quantidade de níveis na cirurgia (OR: 1.5; IC 95%: [0.2, 16.7]).
 
 ## Disfonia
 
@@ -73,7 +73,7 @@ O IMC também não evidencia diferença significativa entre os grupos (p = 0.262
 O tempo de cirurgia foi significativamente diferente entre os grupos (p = 0.018), sendo que o grupo que apresentou disfonia teve procedimentos com uma média (DP) de 229.55 (48.76) minutos, enquanto o grupo onde não foi observada a disfonia teve média (DP) de 172.78 (71.77) minutos.
 Isto indica que, em nossa amostra, o tempo médio de cirurgia foi maior no grupo que foi diagnosticado com disfonia, em relação aos que tiveram este diagnóstico rejeitado.
 
-Parece haver uma associação estatisticamente significativa entre cirurgias grandes e a prevalência de disfonia (p-valor = OR: 7; IC 95%: [1.3, 43.9]).
+Parece haver uma associação estatisticamente significativa entre cirurgias grandes e a prevalência de disfonia (OR: 7; IC 95%: [1.3, 43.9]).
 Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirurgias longas (OR: 13.3; IC 95%: [1.6, 633.5]).
 
 Não observamos neste estudo evidências de associação entre disfonia e
