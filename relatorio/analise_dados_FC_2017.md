@@ -103,5 +103,4 @@ Há evidências também que ACAs com duração maiores ou iguais a 2 horas estã
 Em nosso estudo, encontramos evidências que cirurgias com três ou mais níveis tem seis vezes mais chance de causar disfonia pós-operatória.
 Para disfagia observamos que não houve associação entre nenhuma das variáveis estudadas.
 Este desfecho se justifica devido ao baixo poder estatístico das análises por pequena representatividade de alguns grupos.
-Evidencia-se assim a necessidade de confirmação dos resultados com novos estudos, especialmente
-desenhados para confirmar ou refutar os resultados aqui obtidos.
+Evidencia-se assim a necessidade de novos estudos especialmente desenhados para confirmar ou refutar os resultados aqui obtidos.
