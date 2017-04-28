@@ -96,6 +96,8 @@ A complexidade da cirurgia também parece ser um fator, onde a ACA com 3 ou mais
 Este trabalho indica que ACAs com maior grau de complexidade (onde são necessários 2 ou mais níveis) aumentam a ocorrência de disfonia.
 Há evidências também que ACAs com duração maiores ou iguais a 2 horas estão associadas a este desfecho.
 
-Não foi possível observar associação entre nenhuma das variáveis estudadas e a disfagia.
-Observamos no entanto, considerando as estratifições propostas, o baixo poder estatístico das análises devido a baixa representatividade de alguns grupos.
-Evidencia-se assim a necessidade de confirmação dos resultados com novos estudos, preferencialmente especialmente desenhados para confirmar ou refutar os resultados aqui obtidos.
+Em nosso estudo, encontramos correlação de duas variáveis e disfonia pós-operatória.
+Para disfagia observamos que não houve associação entre nenhuma das variáveis estudadas.
+Este desfecho se justifica devido ao baixo poder estatístico das análises por pequena representatividade de alguns grupos.
+Evidencia-se assim a necessidade de confirmação dos resultados com novos estudos, especialmente
+desenhados para confirmar ou refutar os resultados aqui obtidos.
