@@ -98,7 +98,7 @@ O tempo de cirurgia foi significativamente diferente entre os grupos (p = 0.018)
 Isto indica que, em nossa amostra, o tempo médio de cirurgia foi maior no grupo que foi diagnosticado com disfonia, em relação aos que tiveram este diagnóstico rejeitado.
 
 Observamos uma associação estatisticamente significativa entre cirurgias grandes e a prevalência de disfonia (`r format.or(niveis.disfon)`).
-Esta taxa significa um aumento de seis vezes na chance deste desfecho.
+Esta taxa indica um aumento de seis vezes na prevalência deste desfecho no período estudado.
 
 Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirurgias longas (`r format.or(cir.disfon)`).
 Esta evidência porém é fraca devido à pequena quantidade de pacientes disponíveis.
