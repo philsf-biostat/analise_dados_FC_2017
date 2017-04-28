@@ -57,7 +57,7 @@ Os dados coletados são apresentados estratificados por disfagia (Tabela xx) e p
 Na tabela xx pode-se observar que não há diferença significativa entre as idades, o IMC ou a duração da cirurgia (em minutos).
 
 ```{r disfonia, echo = F}
-pander(tabela.disfonia)
+# pander(tabela.disfonia)
 ```
 
 No grupo de pacientes que desenvolveram disfonia, a idade média (DP) observada foi 59.36 (7.54) anos enquanto nos pacientes que não apresentaram esta condição a idade média (DP) foi 55.28 (8.61) anos.
@@ -84,7 +84,7 @@ se o procedimento foi executado na região alta da cervical (`r format.or(cervic
 ## Disfagia
 
 ```{r disfagia, echo = F}
-pander(tabela.disfagia)
+# pander(tabela.disfagia)
 ```
 
 Na estratificação por disfagia, não foi observada diferença significativa na idade (p = 0.188), IMC (p = 0.446) e no tempo de cirurgia em minutos (p = 0.544).

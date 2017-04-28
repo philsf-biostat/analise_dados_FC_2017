@@ -40,17 +40,6 @@ Os dados coletados são apresentados estratificados por disfagia (Tabela xx) e p
 Na tabela xx pode-se observar que não há diferença significativa entre as idades, o IMC ou a duração da cirurgia (em minutos).
 
 
---------------------------------------------------------------------
-         &nbsp;                 0              1          p    test 
-------------------------- -------------- -------------- ----- ------
-          **n**                 36             11                   
-
-  **IDADE (mean (sd))**    55.28 (8.61)   59.36 (7.54)  0.164       
-
-   **IMC (mean (sd))**     28.53 (4.58)   26.68 (4.11)  0.262       
-
- **DURACAO (mean (sd))**  172.78 (71.77) 229.55 (48.76) 0.018       
---------------------------------------------------------------------
 
 No grupo de pacientes que desenvolveram disfonia, a idade média (DP) observada foi 59.36 (7.54) anos enquanto nos pacientes que não apresentaram esta condição a idade média (DP) foi 55.28 (8.61) anos.
 Não há diferença significativa entre as idades dos grupos (p = 0.164).
@@ -76,17 +65,6 @@ se o procedimento foi executado na região alta da cervical (OR: 2.5; IC 95%: [0
 ## Disfagia
 
 
---------------------------------------------------------------------
-         &nbsp;                 0              1          p    test 
-------------------------- -------------- -------------- ----- ------
-          **n**                 11             36                   
-
-  **IDADE (mean (sd))**    53.27 (9.74)   57.14 (7.98)  0.188       
-
-   **IMC (mean (sd))**     29.05 (6.18)   27.79 (3.91)  0.446       
-
- **DURACAO (mean (sd))**  174.55 (65.44) 189.58 (72.99) 0.544       
---------------------------------------------------------------------
 
 Na estratificação por disfagia, não foi observada diferença significativa na idade (p = 0.188), IMC (p = 0.446) e no tempo de cirurgia em minutos (p = 0.544).
 A idade média (DP) dos pacientes que apresentaram disfagia foi 57.14 (7.98) anos e dos pacientes que não apresentaram foi 53.27 (9.74) anos.
