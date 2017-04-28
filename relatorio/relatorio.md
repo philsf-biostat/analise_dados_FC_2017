@@ -33,8 +33,8 @@ Todas as outras informações estavam completos (N=47).
 
 
 
-A disfagia foi diagnosticada em 11 pacientes, com taxa de prevalência estimada em 23.4% (IC 95%: [12.8%, 38.4%]).
-A disfonia foi diagnosticada em 36 pacientes com taxa de prevalência estimada em 76.6% (IC 95%: [61.6%, 87.2%]).
+A disfagia foi diagnosticada em 11 pacientes, com taxa de prevalência estimada em 23.4% (IC 95%: [12.8%, 38.4%]) no período estudado.
+A disfonia foi diagnosticada em 36 pacientes com taxa de prevalência estimada em 76.6% (IC 95%: [61.6%, 87.2%]) no período estudado.
 
 Dentre os 47 pacientes, 11 (23.4%) tiveram diagnóstico negativo para ambas condições e 11 (23.4%) tiveram diagnóstico positivo para ambas condições.
 Houve 25 (53.2%) pacientes diagnosticados com disfagia, mas que não apresentaram disfonia.
