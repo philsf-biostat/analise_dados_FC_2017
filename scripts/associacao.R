@@ -10,10 +10,6 @@ niveis.disfon <- with(DF, table(NIVEIS, DISFONIA))
 placa.disfon <- with(DF, table(PLACA, DISFONIA))
 cervic.disfon <- with(DF, table(`CERVICAL ALTA`, DISFONIA))
 
-# Fisher test
-corpec.disfon.fisher <- fisher.test(corpec.disfon)
-niveis.disfon.fisher <- fisher.test(niveis.disfon)
-
 # DISFAGIA ####
 # tabelas
 ob.disfag <- with(DF, table(OBESO, DISFAGIA))
@@ -25,10 +21,6 @@ gen.disfag <- with(DF, table(GENERO, DISFAGIA))
 niveis.disfag <- with(DF, table(NIVEIS, DISFAGIA))
 placa.disfag <- with(DF, table(PLACA, DISFAGIA))
 cervic.disfag <- with(DF, table(`CERVICAL ALTA`, DISFAGIA))
-
-# Fisher test
-corpec.disfag.fisher <- fisher.test(corpec.disfag)
-niveis.disfag.fisher <- fisher.test(niveis.disfag)
 
 # Função
 format.or <- function(ctable) {
