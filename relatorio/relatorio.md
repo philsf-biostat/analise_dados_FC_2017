@@ -77,6 +77,8 @@ Observamos uma associação estatisticamente significativa entre cirurgias grand
 Esta taxa significa um aumento de seis vezes na chance deste desfecho.
 
 Também parece haver um aumento significativo da prevalência de disfonia em pacientes submetidos a cirurgias longas (OR: 13.3; IC 95%: [1.6, 633.5]).
+Esta evidência porém é fraca devido à pequena quantidade de pacientes disponíveis.
+Apenas um paciente apresentou disfonia com cirurgia curta, portanto não há poder estatístico para avaliar decisivamente a associação entre o tempo de cirurgia e a ocorrência da disfagia.
 
 Não observamos neste estudo evidências de associação entre disfonia e
 gênero (OR: 0.3; IC 95%: [0.1, 1.6]),
