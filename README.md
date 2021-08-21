@@ -1,3 +1,3 @@
-# Análise de dados Felipe Carrasco 2017
+# Prevalência de disfagia e disfonia no pós-operatório imediato de Artrodese Cervical Anterior
 
-Dados para projeto de artigo.
+Análise de dados para manuscrito com Felipe Carrasco (Mestrado Profissional INTO, 2017).
